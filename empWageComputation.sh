@@ -1,1 +1,9 @@
-echo "Welcome to Employee Wage problem computaion on master branch "
+rnd=$(( RANDOM%2 ))
+if(( $rnd==1 ))
+then
+        echo "Yes, Employee is present "
+else
+        echo "No, Employee is not present "
+fi
+
+
